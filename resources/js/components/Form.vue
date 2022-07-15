@@ -39,7 +39,6 @@ export default {
                 <input v-model="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>            
             <button @click="this.test" type="submit" class="btn btn-primary mt-2">Submit</button>
-
         </form>
     </div>
 </template>

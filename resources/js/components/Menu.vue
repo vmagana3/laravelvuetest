@@ -20,6 +20,9 @@
                     <li class="nav-item">
                         <a  exact-active-class="active" href="/form" class="nav-link" aria-current="page">Form</a>    
                     </li>
+                    <li class="nav-item">
+                        <a  exact-active-class="active" href="/newform" class="nav-link" aria-current="page">NewForm</a>    
+                    </li>
                 </ul>                    
             </div>
         </div>

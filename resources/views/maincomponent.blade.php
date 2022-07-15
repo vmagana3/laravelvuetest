@@ -19,9 +19,6 @@
             <div>
                 @yield('HomeComponent')
             </div>
-            <div id="Footer">
-
-            </div>
         </div>
 
     <script src="{{ mix('js/app.js') }}"></script>

@@ -17,6 +17,10 @@ Route::get('/form', function(){
     return view('form');
 });
 
+Route::get('/newform', function(){
+    return view('newform');
+});
+
 
 
 

@@ -8,6 +8,7 @@ import Menu from './components/Menu.vue';
 import Blogs from './components/Blogs.vue';
 import Contacto from './components/Contacto.vue';
 import Form from './components/Form.vue';
+import NewForm from './components/NewForm.vue';
 
 //Validate HTML element
 if(document.getElementById('menu')){
@@ -41,6 +42,12 @@ if(document.getElementById('formcomponent')){
         render: h => h(Form)
       }).$mount("#formcomponent");
 }
+
+/* if(document.getElementById('newform')){
+    new Vue({
+        render: h => h(NewForm)
+      }).$mount("#newform");
+} */
 
 /* if(document.getElementById('menu')){
     const app = createApp(Menu);
