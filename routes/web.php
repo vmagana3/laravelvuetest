@@ -21,6 +21,9 @@ Route::get('/newform', function(){
     return view('newform');
 });
 
+Route::get('/payment', function(){
+    return view('payment');
+});
 
 
 

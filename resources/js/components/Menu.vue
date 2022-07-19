@@ -23,6 +23,9 @@
                     <li class="nav-item">
                         <a  exact-active-class="active" href="/newform" class="nav-link" aria-current="page">NewForm</a>    
                     </li>
+                     <li class="nav-item">
+                        <a  exact-active-class="active" href="/payment" class="nav-link" aria-current="page">Payment</a>    
+                    </li>
                 </ul>                    
             </div>
         </div>

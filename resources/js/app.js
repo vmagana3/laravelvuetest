@@ -9,6 +9,7 @@ import Blogs from './components/Blogs.vue';
 import Contacto from './components/Contacto.vue';
 import Form from './components/Form.vue';
 import NewForm from './components/NewForm.vue';
+import Payment from './components/Payment.vue';
 
 //Validate HTML element
 if(document.getElementById('menu')){
@@ -41,6 +42,18 @@ if(document.getElementById('formcomponent')){
     new Vue({
         render: h => h(Form)
       }).$mount("#formcomponent");
+}
+
+if(document.getElementById('formcomponent')){
+    new Vue({
+        render: h => h(Form)
+      }).$mount("#formcomponent");
+}
+
+if(document.getElementById('paymentcomponent')){
+    new Vue({
+        render: h => h(Payment)
+      }).$mount("#paymentcomponent");
 }
 
 /* if(document.getElementById('newform')){
